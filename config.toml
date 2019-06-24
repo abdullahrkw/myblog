@@ -1,9 +1,9 @@
 baseurl = "abdullahrkw.com/"
 languageCode = "en-us"
-title = "Blackburn Theme Demo"
+title = "My personal blog"
 
 
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
 
@@ -50,9 +50,9 @@ paginate = 10
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter = "*"
-  facebook = "*"
-  instagram = "*"
-  github = "yoshiharuyamashita"
+  twitter = "abdullahrkw"
+  facebook = "abdullahrkw"
+  instagram = "abdullahrkw"
+  github = "abdullahrkw"
   stackoverflow = "*"
-  linkedin = "*"
+  linkedin = "muhammad-abdullah-256b26133"
