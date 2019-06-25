@@ -1,4 +1,4 @@
-baseurl = "abdullahrkw.com/"
+baseurl = "abdullahrkw.com"
 languageCode = "en-us"
 title = "My personal blog"
 
@@ -28,7 +28,8 @@ paginate = 10
     pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
     identifier = "home"
-    
+    url = "/"
+
   [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
