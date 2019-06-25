@@ -5,7 +5,7 @@ sidemenu = "true"
 description = "How to contact me"
 +++
 
-<form class="pure-form pure-form-stacked">
+<form class="pure-form pure-form-stacked" netlify>
   <fieldset>
     <div class="pure-g">
       <div class="pure-u-1 pure-u-md-1-3">
