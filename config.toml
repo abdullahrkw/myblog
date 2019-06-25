@@ -1,4 +1,4 @@
-baseurl = "abdullahrkw.com/"
+baseurl = "https://abdullahrkw.com/"
 languageCode = "en-us"
 title = "My personal blog"
 
@@ -35,18 +35,18 @@ paginate = 10
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
-    url = "post/"
+    url = "/post/"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
     identifier = "about"
-    url = "about/"
+    url = "/about/"
   [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
-    url = "contact/"
+    url = "/contact/"
 
 [social]
   # Link your social networking accouns to the side menu
