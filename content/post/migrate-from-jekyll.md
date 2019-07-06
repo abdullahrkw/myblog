@@ -1,9 +1,13 @@
 ---
-date: 2014-03-10
+
 linktitle: Migrating from Jekyll
 
 title: Migrate to Hugo from Jekyll
+date: 2019-03-10
+
+
 weight: 10
+
 ---
 
 ## Move static content to `static`

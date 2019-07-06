@@ -5,13 +5,16 @@ tags = [
     "go",
     "golang",
     "hugo",
-    "development",
-]
-date = "2014-04-02"
+    "development",]
+
+
+date = "2019-03-10"
+
 categories = [
     "Development",
     "golang",
 ]
+
 +++
 
 ## Step 1. Install Hugo

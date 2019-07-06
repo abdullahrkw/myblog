@@ -1,6 +1,8 @@
 +++
 title = "(Hu)go Template Primer"
 description = ""
+date : 2019-03-10
+
 tags = [
     "go",
     "golang",
@@ -8,7 +10,6 @@ tags = [
     "themes",
     "development",
 ]
-date = "2014-04-02"
 categories = [
     "Development",
     "golang",
