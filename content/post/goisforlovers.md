@@ -1,7 +1,7 @@
 +++
 title = "(Hu)go Template Primer"
 description = ""
-date : 2019-03-10
+date = 2019-03-10
 
 tags = [
     "go",
