@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/one-of-my-dreams/</loc>
+    <lastmod>2019-07-06T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/creating-a-new-theme/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/migrate-from-jekyll/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/</loc>
+    <lastmod>2019-07-06T00:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/</loc>
+    <lastmod>2019-07-06T00:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/goisforlovers/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/development/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/go/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/golang/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/templates/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/themes/</loc>
+    <lastmod>2019-03-10T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/post/hugoisforlovers/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/tags/hugo/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://abdullahrkw.com/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
