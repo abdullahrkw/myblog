@@ -49,7 +49,7 @@
 	el : '#app',
 	delimiters: ["{-","-}"],
 	data : {
-		saved_pwd : "1f3c3ba3336a8bf41b703f072336a12aa81dd51ddbd9ab8106f2ba73b2a66589",
+		saved_pwd : "f693cdca0ea7e3133853cb91081954f0f0d87d58a51d1a9ac784b9a87b47e093",
 		typed_pwd : ""
 	},
 	computed:{
@@ -57,7 +57,7 @@
 		showContent(){
 			if(this.typed_pwd !== ""){
 	
-		    if(this.saved_pwd === sha256(this.typed_pwd))
+		    if(this.saved_pwd === sha256(this.typed_pwd+'4 %~~..(*____@*2)'))
 			return true;
 			else return false;
 		}}
