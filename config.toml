@@ -1,7 +1,7 @@
 baseurl = "https://abdullahrkw.com/"
 languageCode = "en-us"
 title = "My personal blog"
-
+abc = ""
 
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true

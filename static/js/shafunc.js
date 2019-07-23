@@ -1,50 +1,4 @@
-
-{{ partial "header.html" . }}
-
-<div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Description }}</h2>
-</div>
-
-<div id = 'app'>
-    
-    <div  class="content" v-if ="'{{ .Title }}' !== 'One of my dreams!'">
-
-
-      {{ partial "post_meta.html" . }}
-      
-        {{ .Content }}    
-
-      {{ partial "prev_next_post.html" . }}
-
-      {{ partial "disqus.html" . }}
-
-    </div>
-    <div class="content" v-else>
-       
-        <label for="pwd">This content is protected by password. If you know password, type it, otherwise, leave.</label>
-        <input type="text" name="private" id="pwd" v-model ="typed_pwd" ><br>
-        <div v-if = "showContent">
-            {{ partial "post_meta.html" . }}      
-
-            {{ .Content }}       
-    
-          {{ partial "prev_next_post.html" . }}
-    
-          {{ partial "disqus.html" . }}
-            
-        </div>
-    </div>
-</div>
-
-{{ partial "footer.html" . }}
-
-
-<!-- some scripts -->
-
-<script  src="https://unpkg.com/vue"></script>
-<script>
-  var sha256 = function sha256(ascii) {
+var sha256 = function sha256(ascii) {
 	function rightRotate(value, amount) {
 		return (value>>>amount) | (value<<(32 - amount));
 	};
@@ -142,24 +96,3 @@
 };
 
 
-
-const rz = new Vue({
-	el : '#app',
-	delimiters: ["{-","-}"],
-	data : {
-		saved_pwd : "1f3c3ba3336a8bf41b703f072336a12aa81dd51ddbd9ab8106f2ba73b2a66589",
-		typed_pwd : ""
-	},
-	computed:{
-	
-		showContent(){
-	
-		    if(this.saved_pwd === sha256(this.typed_pwd))
-			return true;
-			else return false;
-		}
-	}
-
-})
-
-</script>

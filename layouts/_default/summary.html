@@ -7,7 +7,9 @@
   </header>
 
   <p>
+    {{ if  ne .Title "One of my dreams!"}}
   {{ .Summary }}
+  {{ end }}
   </p>
 
   {{ if .Truncated }}
