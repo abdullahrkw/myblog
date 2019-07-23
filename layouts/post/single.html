@@ -1,5 +1,6 @@
 
 {{ partial "header.html" . }}
+<script  src="https://unpkg.com/vue"></script>
 
 <div class="header">
   <h1>{{ .Title }}</h1>
@@ -43,8 +44,27 @@
 
 <!-- some scripts -->
 
-<script  src="https://unpkg.com/vue"></script>
 <script>
+	const rz = new Vue({
+	el : '#app',
+	delimiters: ["{-","-}"],
+	data : {
+		saved_pwd : "1f3c3ba3336a8bf41b703f072336a12aa81dd51ddbd9ab8106f2ba73b2a66589",
+		typed_pwd : ""
+	},
+	computed:{
+	
+		showContent(){
+			if(this.typed_pwd !== ""){
+	
+		    if(this.saved_pwd === sha256(this.typed_pwd))
+			return true;
+			else return false;
+		}}
+	}
+
+});
+
   var sha256 = function sha256(ascii) {
 	function rightRotate(value, amount) {
 		return (value>>>amount) | (value<<(32 - amount));
@@ -141,26 +161,5 @@
 	}
 	return result;
 };
-
-
-
-const rz = new Vue({
-	el : '#app',
-	delimiters: ["{-","-}"],
-	data : {
-		saved_pwd : "1f3c3ba3336a8bf41b703f072336a12aa81dd51ddbd9ab8106f2ba73b2a66589",
-		typed_pwd : ""
-	},
-	computed:{
-	
-		showContent(){
-	
-		    if(this.saved_pwd === sha256(this.typed_pwd))
-			return true;
-			else return false;
-		}
-	}
-
-})
 
 </script>
