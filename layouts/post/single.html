@@ -8,32 +8,33 @@
 
 <div id = 'app'>
     
-    <div  class="content" v-if ="'{{ .Title }}' !== 'One of my dreams!'">
+    <div  class="content">
+		{{ if  ne .Title "One of my dreams!"}}
 
 
-      {{ partial "post_meta.html" . }}
+      		{{ partial "post_meta.html" . }}
       
-        {{ .Content }}    
+        	{{ .Content }}    
 
-      {{ partial "prev_next_post.html" . }}
+      		{{ partial "prev_next_post.html" . }}
 
-      {{ partial "disqus.html" . }}
+			  {{ partial "disqus.html" . }}
 
-    </div>
-    <div class="content" v-else>
+		{{ else }}
        
-        <label for="pwd">This content is protected by password. If you know password, type it, otherwise, leave.</label>
-        <input type="text" name="private" id="pwd" v-model ="typed_pwd" ><br>
-        <div v-if = "showContent">
-            {{ partial "post_meta.html" . }}      
+			<label for="pwd">This content is protected by password. If you know password, type it, otherwise, leave.</label>
+			<input type="text" name="private" id="pwd" v-model ="typed_pwd" ><br>
+			<div v-if = "showContent">
+				{{ partial "post_meta.html" . }}      
 
-            {{ .Content }}       
-    
-          {{ partial "prev_next_post.html" . }}
-    
-          {{ partial "disqus.html" . }}
-            
-        </div>
+				{{ .Content }}       
+		
+				{{ partial "prev_next_post.html" . }}
+		
+				{{ partial "disqus.html" . }}
+				
+			</div>
+			{{ end }}
     </div>
 </div>
 
