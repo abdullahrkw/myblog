@@ -1,0 +1,29 @@
+{
+  "name": "abdullahrkw-blog",
+  "version": "1.0.0",
+  "description": "This is abdullahrkw's blog where he shares his thoughts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahrkw/myblog.git"
+  },
+  "keywords": [
+    "blog",
+    "abdullahrkw",
+    "Hugo",
+    "Netlify",
+    "Tech"
+  ],
+  "author": "abdullahrkw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullahrkw/myblog/issues"
+  },
+  "homepage": "https://github.com/abdullahrkw/myblog#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}

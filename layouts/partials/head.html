@@ -5,7 +5,8 @@
   {{hugo.Generator}}
 
   <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
-
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" ></script>
+  <script src="/js/app.js" ></script>
   <!-- CSS -->
   {{ $purecss := "https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/" }}
   <link rel="stylesheet" href="{{ $purecss }}pure-min.css">
