@@ -1,71 +1,4 @@
-
-{{ partial "header.html" . }}
-<script  src="https://unpkg.com/vue"></script>
-
-<div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Description }}</h2>
-</div>
-
-<div id = 'app'>
-    
-    <div  class="content">
-		{{ if  ne .Title "One of my dreams!"}}
-
-
-      		{{ partial "post_meta.html" . }}
-      
-        	{{ .Content }}    
-
-      		{{ partial "prev_next_post.html" . }}
-
-			  {{ partial "disqus.html" . }}
-
-		{{ else }}
-       
-			<label for="pwd">This content is protected by password. If you know password, type it, otherwise, leave.</label>
-			<input type="text" name="private" id="pwd" v-model ="typed_pwd" ><br>
-			<div v-if = "showContent">
-				{{ partial "post_meta.html" . }}      
-
-				{{ .Content }}       
-		
-				{{ partial "prev_next_post.html" . }}
-		
-				{{ partial "disqus.html" . }}
-				
-			</div>
-			{{ end }}
-    </div>
-</div>
-
-{{ partial "footer.html" . }}
-
-
-<!-- some scripts -->
-
-<script>
-	const rz = new Vue({
-	el : '#app',
-	delimiters: ["{-","-}"],
-	data : {
-		saved_pwd : "f693cdca0ea7e3133853cb91081954f0f0d87d58a51d1a9ac784b9a87b47e093",
-		typed_pwd : ""
-	},
-	computed:{
-	
-		showContent(){
-			if(this.typed_pwd !== ""){
-	
-		    if(this.saved_pwd === sha256(this.typed_pwd+'4 %~~..(*____@*2)'))
-			return true;
-			else return false;
-		}}
-	}
-
-});
-
-  var sha256 = function sha256(ascii) {
+var sha256 = function sha256(ascii) {
 	function rightRotate(value, amount) {
 		return (value>>>amount) | (value<<(32 - amount));
 	};
@@ -162,4 +95,4 @@
 	return result;
 };
 
-</script>
+

@@ -5,6 +5,7 @@ author: "Michael Henderson"
 linktitle: Creating a New Theme
 title: Creating a New Theme
 date : 2019-03-10
+tags : ["hugo","theme"]
 
 weight: 10
 

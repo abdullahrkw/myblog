@@ -1,7 +1,7 @@
 baseurl = "https://abdullahrkw.com/"
 languageCode = "en-us"
 title = "My personal blog"
-
+abc = ""
 
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
@@ -15,7 +15,7 @@ paginate = 10
   # Shown in the home page
   subtitle = ""
   brand = "Abdullahrkw"
-  googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "UA-143431755-1"
   disqus = "Your Disqus shortname"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
