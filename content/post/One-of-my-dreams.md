@@ -3,7 +3,6 @@
 title = "One of my dreams!"
 description = ""
 date= 2019-07-06
-weight= 1
 
 tags = ["Golden"]
 

@@ -1,7 +1,8 @@
 +++
-title = "HP NC522SFP Network Adaptor Firmware update on Ubuntu"
+title = "HP NC522SFP Network Adapter Firmware update on Ubuntu"
 description = ""
 date = 2019-09-29
+weight= 1
 
 tags = [
     
