@@ -42,11 +42,11 @@ After installing network adapter, it was not recognized.
  Luckily, i found this package [firmware-bnx2x](https://packages.debian.org/stretch/all/firmware-bnx2x). Scroll down, click on **all** select the [relevent] file and click on it. It will start downloading.       
 ## Solution  
 
- ## Download the firmware    
+### Download the firmware    
  ```
  $ wget http.us.debian.org/debian/pool/non-free/f/firmware-nonfree/firmware-bnx2x_20161130-5_all.deb
  ```
- ## install the package    
+### install the package    
  ```
  $ sudo dpkg -i --force-overwrite firmware-bnx2x_20161130-5_all.deb
  ```    
