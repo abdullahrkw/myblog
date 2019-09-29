@@ -32,7 +32,7 @@ After installing network adapter, it was not recognized.
  ``` 
  indicated that i had driver `netxen_nic.ko` installed. So, i needed to upgrade firmware. 
 
- ### Note : my kernal version = 5.0.0-29-generic    
+### Note : my kernal version = 5.0.0-29-generic    
 
  I started searching for firmware. HP product page had firmware in rpm (redhat package manager). I tried to convert rpm to debian using [alien](https://wiki.debian.org/Alien). couldn't compile it. 
 ## Firmware Solution 
