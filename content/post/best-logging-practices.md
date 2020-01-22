@@ -1,15 +1,12 @@
 +++
 title = "Best logging practices to improve your application reliability"
 description = ""
-date = 2020-01-23
+weight= 1
 
-tags = [
-    "logging",
-    "application reliability",
-]
-categories = [
-    "software engineering",
-]
+tags = ["logging","application reliability",]
+date = 2020-01-23
+categories = ["software engineering",]
+
 +++
 
 Logging helps to track events in our application and this tracking can be of great help while debugging. 
