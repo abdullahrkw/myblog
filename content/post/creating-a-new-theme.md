@@ -1,5 +1,3 @@
-
-
 ---
 author: "Michael Henderson"
 linktitle: Creating a New Theme

@@ -3,7 +3,7 @@
 linktitle: Best Logging Practices
 
 title: Best logging practices to improve your application reliability
-date: 2020-01-23
+date: 2019-01-23
 
 
 weight: 1
