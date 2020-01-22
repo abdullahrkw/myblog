@@ -1,13 +1,14 @@
-+++
-title = "Best logging practices to improve your application reliability"
-description = ""
-weight= 1
+---
 
-tags = ["logging","application reliability",]
-date = 2020-01-23
-categories = ["software engineering",]
+linktitle: Best Logging Practices
 
-+++
+title: Best logging practices to improve your application reliability
+date: 2020-01-23
+
+
+weight: 1
+
+---
 
 Logging helps to track events in our application and this tracking can be of great help while debugging. 
 Following rules can help us do meaningful logging.
