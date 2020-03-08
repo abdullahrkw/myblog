@@ -9,7 +9,7 @@ weight: 1
 ---
 
 
-## Logging helps to track events in our application and this tracking can be of great help while debugging 
+### Logging helps to track events in our application and this tracking can be of great help while debugging 
 
 Following rules can help us do meaningful logging.           
 
@@ -17,7 +17,7 @@ Following rules can help us do meaningful logging.
 - Contextual information must be present in logs. This includes timestamps, function name, filename, line numebr etc             
 
 
-- Define accurate log levels. Log levels include ```debug, trace, info, warn, error, fatal```.              
+- Define accurate log levels. Log levels include `debug, trace, info, warn, error, fatal`               
 
 
 - Write meaningful logs that don't require deep understanding of the application.              
