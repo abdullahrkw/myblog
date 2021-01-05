@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/abdullahrkw/myblog#readme",
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.21.1"
   }
 }
